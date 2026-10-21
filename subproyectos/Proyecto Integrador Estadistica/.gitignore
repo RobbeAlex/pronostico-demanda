@@ -1,0 +1,40 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales (¡Muy Importante!) ---
+# Esto evita que se suba la carpeta con las librerías instaladas
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter Notebooks ---
+# Evita subir los puntos de control automáticos
+.ipynb_checkpoints/
+
+# --- IDEs / Editores ---
+# Configuraciones de PyCharm y VSCode que son solo para ti
+.idea/
+.vscode/
+
+# --- Datos y Bases de Datos ---
+# Generalmente no se suben bases de datos binarias ni CSVs muy pesados
+*.db
+*.sqlite3
+Collins_Demand_DB.db
+
+# Si quieres subir los CSV de datos porque son pequeños,
+# deja comentada la siguiente línea. Si son muy grandes, descoméntala:
+# data/raw/*.csv
+# *.csv
+# *.xlsx
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y Errores ---
+*.log

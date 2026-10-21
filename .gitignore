@@ -1,0 +1,42 @@
+# Caché y compilados de Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+
+# Respaldos internos de git
+.git_backup
+**/.git_backup
+
+# Checkpoints de Jupyter Notebook
+.ipynb_checkpoints/
+**/__ipynb_checkpoints__/
+
+# Configuraciones de IDEs
+.idea/
+.vscode/
+**/.idea/
+**/.vscode/
+
+# Archivos temporales de LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Variables de entorno y archivos del sistema operativo
+.env
+.DS_Store
+Thumbs.db
+
+# Preservar directorios vacíos en git
+!.gitkeep

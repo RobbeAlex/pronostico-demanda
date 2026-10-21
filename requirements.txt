@@ -1,0 +1,21 @@
+# =============================================================================
+# Requerimientos Unificados — Proyecto Integrador 3 (Grupo Collins)
+# Módulos: ML & Matemáticas, Complejidad, Programación POO, BD y Estadística
+# =============================================================================
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+statsmodels==0.14.5
+prophet==1.2.1
+cmdstanpy==1.3.0
+holidays==0.84
+matplotlib==3.10.7
+seaborn==0.13.2
+plotly>=5.24.0
+streamlit>=1.40.0
+SQLAlchemy==2.0.44
+PyMySQL==1.1.2
+joblib==1.5.2
+tqdm==4.67.1
+ipython==9.7.0
